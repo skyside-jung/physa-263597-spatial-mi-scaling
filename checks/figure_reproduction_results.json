@@ -1,0 +1,39 @@
+{
+  "source_files_checked": 52,
+  "max_absolute_collapse_score_difference": 5.551115123125783e-17,
+  "temperature_results": [
+    {
+      "model": "ising",
+      "group": "development",
+      "T_hat": 2.27,
+      "score": 0.023700560421987586
+    },
+    {
+      "model": "ising",
+      "group": "heldout",
+      "T_hat": 2.27,
+      "score": 0.03210092385486897
+    },
+    {
+      "model": "potts3",
+      "group": "development",
+      "T_hat": 0.995,
+      "score": 0.009874591142834054
+    },
+    {
+      "model": "potts3",
+      "group": "heldout",
+      "T_hat": 0.995,
+      "score": 0.005850798361764386
+    }
+  ],
+  "figure5_positive_delta_counts": [
+    90,
+    0,
+    0
+  ],
+  "all_core_checks_passed": true,
+  "figure_source_note": "Recreated independently from merged/profiles.csv, not original make_physa_figures.py; graphics may differ in visual details",
+  "supplementary_note": "Stored sensitivity CSVs archived; not all sensitivity computations independently regenerated",
+  "full_raw_data_note": "Original ~484MB physa_main_v11_results.zip not bundled; audit scripts depend on separate archive"
+}

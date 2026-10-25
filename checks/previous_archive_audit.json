@@ -1,0 +1,79 @@
+{
+  "source": "physa_main_v11_results.zip",
+  "zip_member_count": 3532,
+  "manifest_entries": 3531,
+  "sha256_checked": 3531,
+  "jobs_declared": 1170,
+  "joint_count_files": 1170,
+  "observation_files": 1170,
+  "completed_markers": 1170,
+  "selection_checks": [
+    {
+      "model": "ising",
+      "group": "development",
+      "estimator": "mi_symmetry_pooled",
+      "temperature": "2.27",
+      "min_score": "0.023700560421987586",
+      "matches_saved": true
+    },
+    {
+      "model": "ising",
+      "group": "development",
+      "estimator": "equal_state_connected",
+      "temperature": "2.27",
+      "min_score": "0.008535421319760993",
+      "matches_saved": true
+    },
+    {
+      "model": "ising",
+      "group": "heldout",
+      "estimator": "mi_symmetry_pooled",
+      "temperature": "2.27",
+      "min_score": "0.03210092385486897",
+      "matches_saved": true
+    },
+    {
+      "model": "ising",
+      "group": "heldout",
+      "estimator": "equal_state_connected",
+      "temperature": "2.27",
+      "min_score": "0.014205445702051919",
+      "matches_saved": true
+    },
+    {
+      "model": "potts3",
+      "group": "development",
+      "estimator": "mi_symmetry_pooled",
+      "temperature": "0.995",
+      "min_score": "0.009874591142834054",
+      "matches_saved": true
+    },
+    {
+      "model": "potts3",
+      "group": "development",
+      "estimator": "equal_state_connected",
+      "temperature": "0.995",
+      "min_score": "0.006600632451043189",
+      "matches_saved": true
+    },
+    {
+      "model": "potts3",
+      "group": "heldout",
+      "estimator": "mi_symmetry_pooled",
+      "temperature": "0.995",
+      "min_score": "0.005850798361764386",
+      "matches_saved": true
+    },
+    {
+      "model": "potts3",
+      "group": "heldout",
+      "estimator": "equal_state_connected",
+      "temperature": "0.995",
+      "min_score": "0.002389316129689326",
+      "matches_saved": true
+    }
+  ],
+  "protocol_id": "PHYSA_263597_MAIN_LOCKED_v1_1",
+  "errors": [],
+  "status": "PASS"
+}
