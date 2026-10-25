@@ -1,4 +1,4 @@
-# PHYSA-263597 reproducibility and figure re-analysis package (draft)
+# PHYSA-263597 reproducibility and figure re-analysis package
 
 Manuscript: *Inverse Identification of Critical Transitions from Spatial Information Scaling: Benchmark Tests in Ising and Three-State Potts Models*.
 
@@ -36,5 +36,14 @@ The earlier audit verified 3,531 archived SHA256-tracked files and 1,170 joint-c
 - This package does **not** reproduce all 1,170 Monte Carlo jobs from scratch.
 - It does **not** verify the original Figure 2--5 plotting script, which was not among the supplied files; instead it reconstructs the numerical panels from preserved seed-level profiles.
 - It does **not** recompute every supplementary bootstrap, temporal-window, correction, and nested-size analysis; supplied output files are preserved for audit.
-- A public repository/DOI has **not yet been created**. Do not state that the data have been publicly deposited until publication is confirmed.
+- The lightweight code and analysis repository is public: https://github.com/skyside-jung/physa-263597-spatial-mi-scaling. **No Zenodo DOI has been issued and the full raw dataset has not yet been publicly deposited.** Do not claim publication of the full raw dataset until that occurs.
 - Avoid exposing locally configured credentials or unrelated files if depositing these materials.
+
+## How to cite and reuse
+
+- Software citation metadata: [`CITATION.cff`](CITATION.cff). A Zenodo DOI will be added once a software release is archived.
+- Original Python source code and verification scripts: [MIT License](LICENSE).
+- Research-generated data tables, protocol metadata, and verification figure outputs: [CC BY 4.0](DATA_LICENSE.md). The license does not cover third-party content or materials for which the depositor lacks rights.
+- **Full raw archive:** retained separately; its public dataset DOI and download URL will be added after an actual deposit.
+
+This repository provides an auditable analysis-stage reproduction of the principal results; it does not claim complete re-execution of the original 1,170 Monte Carlo production jobs.
