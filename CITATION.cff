@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use these reproducibility materials, please cite this software and the related article when published."
+title: "Theory-Constrained Spatial Mutual Information Scaling: Reproducibility Code"
+type: software
+authors:
+  - family-names: Jung
+    given-names: Namsu
+repository-code: "https://github.com/skyside-jung/physa-263597-spatial-mi-scaling"
+keywords:
+  - finite-size scaling
+  - mutual information
+  - Ising model
+  - three-state Potts model
